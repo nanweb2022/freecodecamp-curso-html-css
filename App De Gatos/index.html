@@ -5,36 +5,36 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h2>AppDeGatos</h2>
+    <h2 id="titulo-app-gatos">AppDeGatos</h2>
     <main>
       <h3>Imágenes de Gatos:</h3>
       <!-- TODO: Agregar enlace a imágenes de gatos -->
       <p>Haz click aquí para ver más <a href="#" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
 
-      <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+      <a href="#" target="_blank" rel="noopener noreferrer"><img Class="bordes-redondeados" src="https://bit.ly/fcc-relaxing-cat" class="imagen-de-gatos"alt="Un lindo gato naranja recostado sobre su espalda."></a>
 
       <hr>
 
       <h3>Listas de Gatos</h3>
 
-      <div>
+      <div class="contenedor-listas">
         <p>Cosas que los gatos <em>aman</em>:</p>
-        <ul>
+        <ul id="lista-gatos-aman">
           <li>Menta gatuna</li>
           <li>Apuntadores Láser</li>
           <li><s>Lasaña</s></li>
         </ul>
-        <img src="imagenes/lasana.jpg" alt="Lasaña">
+        <img class="bordes-redondeados"src="img/lasana.jpg" alt="Lasaña">
 
         <p>Cosas que los gatos <strong>odian</strong>:</p>
-        <ol>
+        <ol id="lista-gatos-odian">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
+        <img  class="bordes-redondeados" src="img/gatos.jpg" id="imagen-de-gatos" alt="Gatos">
       </div>
-      <img src="imagenes/gatos.jpg" alt="Gatos">
-
+     
       <form action="/enviar-respuesta">
         <!-- Botones de Radio -->
         <label for="interior">
